@@ -1,0 +1,46 @@
+<script setup>
+import articulos from '@/assets/articulos.json'
+</script>
+
+<template>
+  <div>
+    <h2>Sneakers</h2>
+    <div class="sneakers">
+      <div v-for="articulo in articulos.sneakers" :key="articulo.id" class="product-card">
+        <RouterLink :to="{ name: 'sneakerDetails', params: { id: articulo.id } }">
+          <img :src="articulo.img" :alt="articulo.nombre" class="product-img" />
+          <p>{{ articulo.nombre }}</p>
+          <p>{{ articulo.precio | currency }}</p>
+        </RouterLink>
+      </div>
+    </div>
+
+    <h2>Clothes</h2>
+    <div class="clothes">
+      <div v-for="articulo in articulos.clothes" :key="articulo.id" class="product-card">
+        <RouterLink :to="{ name: 'clothesDetails', params: { id: articulo.id } }">
+          <img :src="articulo.img" :alt="articulo.nombre" class="product-img" />
+          <p>{{ articulo.nombre }}</p>
+          <p>{{ articulo.precio | currency }}</p>
+        </RouterLink>
+      </div>
+    </div>
+
+    <h2>Collectibles</h2>
+    <div class="collectibles">
+      <div v-for="articulo in articulos.collectibles" :key="articulo.id" class="product-card">
+        <RouterLink :to="{ name: 'collectibleDetails', params: { id: articulo.id } }">
+          <img :src="articulo.img" :alt="articulo.nombre" class="product-img" />
+          <p>{{ articulo.nombre }}</p>
+          <p>{{ articulo.precio | currency }}</p>
+        </RouterLink>
+      </div>
+    </div>
+    <RouterView />
+  </div>
+</template>
+
+<script setup>
+// Importar los artículos desde el archivo JSON
+import articulos from '@/assets/articulos.json'
+</script>
