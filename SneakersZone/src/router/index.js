@@ -17,7 +17,7 @@ const router = createRouter({
         {
           path: 'clothes/:id',  
           name: 'clothingDetails', 
-          component: () => import('../views/ClothingDetailView.vue'), 
+          component: () => import('../views/ClotheDetailView.vue'), 
           props: true, 
         },
         {
@@ -31,21 +31,17 @@ const router = createRouter({
     {
       path: '/wardrobe',
       name: 'wardrobe',
-      component: () => import('../views/WardrobeView.vue'), // Lazy load de WardrobeView
+      component: () => import('../views/WardrobeView.vue'), 
     },
     {
       path: '/perfil',
       name: 'perfil',
-      component: () => import('../views/PerfilView.vue'), // Lazy load de PerfilView
+      component: () => import('../views/PerfilView.vue'), 
     },
     {
       path: '/contact',
       name: 'contact',
-      component: () => import('../views/ContactView.vue'), // Lazy load de ContactView
-    },
-    {
-      path: '/',
-      redirect: '/home',  // Redirigir a la vista Home por defecto
+      component: () => import('../views/ContactView.vue'), 
     },
   ],
 })
