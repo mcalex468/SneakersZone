@@ -11,19 +11,19 @@ const router = createRouter({
         {
           path: 'sneakers/:id',  
           name: 'sneakerDetails', 
-          component: () => import('../views/SneakerDetailView.vue'),  
+          component: () => import('../views/Detalles/SneakerDetailView.vue'),  
           props: true, 
         },
         {
           path: 'clothes/:id',  
-          name: 'clothingDetails', 
-          component: () => import('../views/ClotheDetailView.vue'), 
+          name: 'clothesDetails', 
+          component: () => import('../views/Detalles/ClotheDetailView.vue'), 
           props: true, 
         },
         {
           path: 'collectibles/:id',  
           name: 'collectibleDetails',  
-          component: () => import('../views/CollectibleDetailView.vue'),  
+          component: () => import('../views/Detalles/CollectibleDetailView.vue'),  
           props: true,  
         },
       ],

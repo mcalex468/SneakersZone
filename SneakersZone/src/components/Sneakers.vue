@@ -2,10 +2,10 @@
   <div>
     <h2>Sneakers</h2>
     <div class="sneakers">
-      <div v-for="articulo in sneakers" :key="articulo.id" class="sneakers-card">
-        <RouterLink :to="{ name: 'sneakerDetails', params: { id: articulo.id } }">
-          <img :src="articulo.img" :alt="articulo.nombre" class="sneaker-img" />
-          <p>{{ articulo.nombre }}</p>
+      <div v-for="sneaker in sneakers" :key="sneaker.id" class="sneakers-card">
+        <RouterLink :to="{ name: 'sneakerDetails', params: { id: sneaker.id } }">
+          <img :src="sneaker.img" :alt="sneaker.nombre" class="sneaker-img" />
+          <p>{{ sneaker.nombre }}</p>
         </RouterLink>
       </div>
     </div>
