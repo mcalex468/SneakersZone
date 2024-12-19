@@ -1,4 +1,4 @@
-<?php
+
 $host = 'sql8.freesqldatabase.com';
 $dbname = 'sql8744528';
 $username = 'sql8744528';
@@ -13,4 +13,4 @@ if ($conn->connect_error) {
     die("Error al conectar: " . $conn->connect_error);
 }
 echo "Conexión exitosa a la base de datos usando MySQLi";
-?>
+

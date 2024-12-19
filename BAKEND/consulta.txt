@@ -1,4 +1,4 @@
-<?php
+
 $result = $conn->query("SELECT * FROM tu_tabla");
 
 if ($result->num_rows > 0) {
@@ -9,4 +9,4 @@ if ($result->num_rows > 0) {
     echo "No se encontraron resultados.";
 }
 $conn->close();
-?>
+
