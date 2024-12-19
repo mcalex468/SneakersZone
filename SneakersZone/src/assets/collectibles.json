@@ -1,0 +1,32 @@
+[
+    {
+      "id": 10,
+      "nombre": "Figura Funko Pop - Iron Man",
+      "descripcion": "Figura coleccionable de edición limitada basada en Iron Man.",
+      "precio": 15.99
+    },
+    {
+      "id": 11,
+      "nombre": "Poster Vintage Star Wars",
+      "descripcion": "Poster de colección inspirado en la trilogía original de Star Wars.",
+      "precio": 19.99
+    },
+    {
+      "id": 12,
+      "nombre": "Camiseta Vintage The Beatles",
+      "descripcion": "Camiseta de colección con el diseño original de The Beatles.",
+      "precio": 24.99
+    },
+    {
+      "id": 13,
+      "nombre": "Busto de Batman",
+      "descripcion": "Busto de colección de edición limitada de Batman.",
+      "precio": 89.99
+    },
+    {
+      "id": 14,
+      "nombre": "Medalla Edición Limitada - Olimpiadas 1980",
+      "descripcion": "Medalla conmemorativa de las Olimpiadas de Moscú 1980.",
+      "precio": 50.00
+    }
+  ]

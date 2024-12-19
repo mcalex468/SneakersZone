@@ -1,0 +1,42 @@
+[
+    {
+      "id": 5,
+      "nombre": "Camiseta Oversize",
+      "talla": ["S", "M", "L", "XL"],
+      "descripcion": "Camiseta con corte oversize, ideal para un look casual.",
+      "img": "https://example.com/camiseta-oversize.jpg",
+      "precio": 24.99
+    },
+    {
+      "id": 6,
+      "nombre": "Pantalón Jogger",
+      "talla": ["S", "M", "L", "XL", "XXL"],
+      "descripcion": "Pantalones cómodos con ajuste elástico en los tobillos.",
+      "img": "https://example.com/pantalon-jogger.jpg",
+      "precio": 39.99
+    },
+    {
+      "id": 7,
+      "nombre": "Chaqueta Bomber",
+      "talla": ["M", "L", "XL"],
+      "descripcion": "Chaqueta bomber estilo retro, perfecta para los días frescos.",
+      "img": "https://example.com/chaqueta-bomber.jpg",
+      "precio": 54.99
+    },
+    {
+      "id": 8,
+      "nombre": "Sudadera con Capucha",
+      "talla": ["S", "M", "L", "XL"],
+      "descripcion": "Sudadera casual con capucha, ideal para un estilo relajado.",
+      "img": "https://example.com/sudadera-capucha.jpg",
+      "precio": 39.99
+    },
+    {
+      "id": 9,
+      "nombre": "Pantalón de Chándal",
+      "talla": ["S", "M", "L", "XL"],
+      "descripcion": "Cómodos pantalones de chándal para entrenar o descansar.",
+      "img": "https://example.com/pantalon-chandal.jpg",
+      "precio": 29.99
+    }
+  ]
